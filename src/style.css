@@ -1,0 +1,158 @@
+body {
+    background-color: ivory;
+    margin: 0px;
+    padding: 0px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+#App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    align-items: center;
+    height: 12vh;
+    width : 100%;
+    padding: 20px;
+    background: steelblue;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#hide {
+    display: flex;
+    float: right;
+    padding-right: 30px;
+}
+
+header p {
+    font-size: 0.4em;
+    font-weight: normal;
+}
+
+header p:hover {
+    cursor: pointer;
+    color: powderblue;
+}
+
+#cv {
+    width: 210mm;
+    background: white;
+    margin: 30px;
+    padding-bottom: 30px;
+    box-shadow: darkgray 0px 0px 10px;
+}
+
+#info {
+    height: 200px;
+    padding: 0px 30px;
+    background: powderblue;
+}
+
+#info > #view_name {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    font-size: 3em;
+    padding: 10px 0px;
+}
+
+#info > #view_email, #view_phone {
+    height: 30px;
+}
+
+#view_email > p, #view_phone > p {
+    display: inline-block;
+    margin : 0px;
+    margin-right: 20px;
+}
+
+#info > #info_update_form {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#info_update_form #form_name > * {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 2em;
+    margin: 25px 0px;
+}
+
+#form_email > *, #form_phone >  * {
+    margin-right: 20px;
+}
+
+#form_email, #form_phone {
+    height: 30px;
+}
+#form_email > label, #form_phone > label {
+    height: 100%;
+
+}
+#form_email > #info_email, #form_phone input {
+    height: 70%;
+}
+
+#edu, #exp {
+    padding: 0px 30px;
+}
+
+#edu > h2, #exp > h2 {
+    font-size: 1.8em;
+    margin: 30px 0px 10px 0px;
+}
+
+#edu > ul > *, #exp > ul > * {
+    list-style: none;
+}
+
+ul button {
+    margin-right: 10px;
+}
+
+#edu label, #exp label {
+    display: inline-block;
+    width: 20%;
+}
+
+#edu input, #exp input {
+    height: 60%;
+}
+
+.view_school, .view_title, .view_edu_date, .view_company, .view_position, .view_exp_date,
+.form_school, .form_title, .form_edu_date, .form_company, .form_position, .form_exp_date {
+    height: 30px;
+}
+
+
+li {
+    margin-bottom: 15px;
+}
+
+li > * > * > p {
+    display: inline-block;
+    margin: 0px;
+}
+
+.desc {
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#view_profile {
+    height: 4.5cm;
+    width: 3.5cm;
+    background-size: cover;
+}

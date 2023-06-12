@@ -1,22 +1,15 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import Header from "./components/Header";
 import Form from "./components/Form";
-import Overview from "./components/Overview";
-// import uniqid from "uniqid";
+import './style.css';
 
-class App extends Component {
-  constructor() {
-    super();
-  }
-  render() {
+function App () {
     return (
-        <div>
-          <Header></Header>
-          <Form></Form>
-          <Overview></Overview>
+        <div id="App">
+            <Header></Header>
+            <Form></Form>
         </div>
     );
-  }
 }
 
 export default App;
